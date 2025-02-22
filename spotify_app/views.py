@@ -10,8 +10,8 @@ import webbrowser
 from .models import Usuario, Song
 from django.http import HttpResponseRedirect
 
-CLIENT_ID = "82c38d08d2f548da9a5388093b863b9d"
-CLIENT_SECRET = "b2c5b2947e784c799ec2f28345680910"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 REDIRECT_URI = "http://localhost:8000/callback"
 scope = 'user-top-read'
 json_users= "users.json"
